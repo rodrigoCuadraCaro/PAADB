@@ -57,3 +57,5 @@ CREATE TABLE login(
     id_usuario INTEGER NOT NULL FOREIGN KEY REFERENCES usuario (id_usuario),
     pas_usu VARCHAR(50) NOT NULL
 );
+
+/*test only*/
